@@ -1,0 +1,31 @@
+{
+    "bucketName": "aerospecdashboardrew6dae2bb1a2ab4612933c4427bd4",
+    "authPolicyName": "s3_amplify_6716fb18",
+    "unauthPolicyName": "s3_amplify_6716fb18",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "selectedGuestPermissions": [
+        "s3:PutObject"
+    ],
+    "selectedAuthenticatedPermissions": [
+        "s3:PutObject"
+    ],
+    "s3PermissionsAuthenticatedPublic": "s3:PutObject",
+    "s3PublicPolicy": "Public_policy_c53bce02",
+    "s3PermissionsAuthenticatedUploads": "s3:PutObject",
+    "s3UploadsPolicy": "Uploads_policy_c53bce02",
+    "s3PermissionsAuthenticatedProtected": "s3:PutObject",
+    "s3ProtectedPolicy": "Protected_policy_7592ba1f",
+    "s3PermissionsAuthenticatedPrivate": "s3:PutObject",
+    "s3PrivatePolicy": "Private_policy_7592ba1f",
+    "AuthenticatedAllowList": "DISALLOW",
+    "s3ReadPolicy": "read_policy_c53bce02",
+    "s3PermissionsGuestPublic": "s3:PutObject",
+    "s3PermissionsGuestUploads": "s3:PutObject",
+    "GuestAllowList": "DISALLOW",
+    "triggerFunction": "NONE"
+}
